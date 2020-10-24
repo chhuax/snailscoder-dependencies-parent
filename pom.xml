@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.snailscoder</groupId>
+    <artifactId>snailscoder-dependencies-parent</artifactId>
+    <version>Hoxton.SR6</version>
+    <packaging>pom</packaging>
+
+    <name>snailscoder-dependencies-parent</name>
+    <url>snailscoder parent</url>
+    <description>snailscoder parent</description>
+    <licenses>
+        <license>
+            <name>The ApacheSoftware License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>snailscoder</name>
+            <email>huaxin803@gmail.com</email>
+        </developer>
+    </developers>
+    <scm>
+        <tag>master</tag>
+        <connection>https://www.snailscoder.com</connection>
+        <developerConnection>https://snailscoder.com</developerConnection>
+        <url>https://snailscoder.com</url>
+    </scm>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>rdc-releases</id>
+            <url>https://repo.rdc.aliyun.com/repository/23588-release-h0KTCT/</url>
+        </repository>
+        <snapshotRepository>
+            <id>rdc-snapshots</id>
+            <url>https://repo.rdc.aliyun.com/repository/23588-snapshot-BSMYuX/</url>
+        </snapshotRepository>
+    </distributionManagement>
+</project>
